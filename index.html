@@ -24,15 +24,13 @@
             background: linear-gradient(135deg, #121212, #000000);
             height: 100vh;
             display: flex;
-            flex-direction: column;
             justify-content: center;
             align-items: center;
             overflow: hidden;
-            color: white;
         }
         
         .message {
-            font-size: 12vw;
+            font-size: 15vw;
             font-weight: 900;
             text-align: center;
             color: #ff3e3e;
@@ -40,57 +38,8 @@
                          0 0 40px rgba(255, 62, 62, 0.5),
                          0 0 60px rgba(255, 62, 62, 0.3);
             animation: pulse 2s infinite alternate;
-            margin-bottom: 30px;
             line-height: 1.1;
-        }
-        
-        .subtitle {
-            font-size: 2rem;
-            color: #ccc;
-            margin-top: 20px;
-            text-align: center;
-            max-width: 600px;
-        }
-        
-        .discord-info {
-            position: absolute;
-            bottom: 20px;
-            width: 90%;
-            max-width: 800px;
-            background: rgba(40, 40, 40, 0.8);
-            border-radius: 10px;
-            padding: 15px;
-            border-left: 5px solid #5865F2;
-            font-family: Arial, sans-serif;
-        }
-        
-        .discord-info h3 {
-            color: #5865F2;
-            margin-bottom: 10px;
-        }
-        
-        .discord-preview {
-            display: flex;
-            background: rgba(48, 49, 54, 0.7);
-            border-radius: 5px;
-            padding: 10px;
-            margin-top: 10px;
-        }
-        
-        .discord-preview img {
-            width: 80px;
-            height: 80px;
-            margin-right: 15px;
-            border-radius: 10px;
-        }
-        
-        .discord-content h4 {
-            color: #00AFF4;
-            margin-bottom: 5px;
-        }
-        
-        .discord-content p {
-            color: #DCDDDE;
+            padding: 20px;
         }
         
         @keyframes pulse {
@@ -110,37 +59,12 @@
         
         @media (max-width: 768px) {
             .message {
-                font-size: 15vw;
-            }
-            
-            .subtitle {
-                font-size: 1.5rem;
-                padding: 0 20px;
-            }
-            
-            .discord-info {
-                position: relative;
-                margin-top: 40px;
-                bottom: unset;
+                font-size: 20vw;
             }
         }
     </style>
 </head>
 <body>
     <div class="message">GET A JOB</div>
-    <div class="subtitle">GET A JOB</div>
-    
-    <div class="discord-info">
-        <h3>GET A JOB</h3>
-        <p>GET A JOB</p>
-        
-        <div class="discord-preview">
-            <img src="https://raw.githubusercontent.com/drtffyhu8fdghfgd/rtgruj98ig/refs/heads/main/job.png" alt="GET A JOB">
-            <div class="discord-content">
-                <h4>GET A JOB</h4>
-                <p>GET A JOB</p>
-            </div>
-        </div>
-    </div>
 </body>
 </html>
